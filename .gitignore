@@ -1,0 +1,8 @@
+build/
+deps/
+obj/
+
+*.a
+*.o
+*.dll
+*.uni
