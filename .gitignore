@@ -6,3 +6,13 @@ obj/
 *.o
 *.dll
 *.uni
+
+spec/*.log
+spec/*.dvi
+spec/*.aux
+spec/*.fdb_latexmk
+spec/*.fls
+spec/*.synctex.gz
+spec/*.toc
+
+.DS_Store
