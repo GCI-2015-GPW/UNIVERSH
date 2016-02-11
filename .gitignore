@@ -1,4 +1,8 @@
+build/
+deps/
+obj/
 
-*.obj
-
-/build
+*.a
+*.o
+*.dll
+*.uni
