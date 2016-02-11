@@ -4,7 +4,7 @@
         Russell Greene}
 \date{}
 
-\renewcommand*\contentsname{Contents}
+\renewcommand*\contentsname{Table of Contents}
 
 \begin{document}
 
@@ -18,7 +18,14 @@
 
 \section {Preface}
 
-Welcome to the UNIVERSH package specification format
+The UNIVERSH Package Format is based on the Debian .deb package format, with various extensions. Debian's .deb format was used for its
+relatively large user base and robust packaging utilities, perfect for our use case. Additionally, converting Debian packages becomes
+trivial with such a simmilar format.
+\newline
+\newline
+UNIVERSH is designed to be a portable, efficient distribution system with the prime focus on providing platform-agnostic
+binaries. It achieves this by compiling all binaries into a speciailized version of LLVM IR, which in turn is then converted to machine code during
+installation. For more info on the modified LLVM IR, you can read the PortIR spec.
 
 \section {Package File Format}
 
